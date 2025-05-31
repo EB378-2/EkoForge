@@ -69,6 +69,30 @@ p, admin, calendar/*, (edit)|(delete)
 p, admin, fees, (list)|(show)
 
 
+//eko
+p, admin, dash, list
+p, admin, todolist, (list)|(show)
+p, admin, todolist/*, (edit)|(delete)|(show)
+p, admin, notes, (list)|(show)
+p, admin, notes/*, (edit)|(delete)|(show)
+p, admin, crm_dropdown, (list)|(show)
+p, admin, crm, (list)|(show)
+p, admin, clients, (list)|(show)
+p, admin, contacts, (list)|(show)
+p, admin, prospects, (list)|(create)
+p, admin, prospects/*, (edit)|(delete)|(show)
+p, admin, deals, (list)|(show)
+p, admin, calendar, (list)|(show)
+p, admin, ledeger, (list)|(show)
+p, admin, profiles, (list)|(show)
+p, admin, profiles/*, (edit)
+p, admin, resources_drop, (list)|(show)
+p, admin, resources, (list)|(show)
+p, admin, projectstart, (list)|(show)
+p, admin, reports, (list)|(show)
+p, admin, blogs, (list)|(show)
+p, admin, chat, (list)|(show)
+
 `);
 
 

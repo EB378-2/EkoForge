@@ -1,7 +1,7 @@
 {
-  "name":"EFNU Airport App",
-  "short_name":"EFNU",
-  "description":"EFNU WebApp and Intranet Portal",
+  "name":"Eko App",
+  "short_name":"Eko",
+  "description":"Eko WebApp and Intranet Portal",
   "theme_color":"#eeeeee",
   "background_color":"#cccccc",
   "display":"fullscreen",

@@ -1,0 +1,752 @@
+{
+  "AboutBusiness": {
+    "title": "Why Your Business Needs More Than Just a Website—It Needs a Sales-Generating Machine",
+    "introParagraph1": "In today’s digital world, your website isn’t just an online brochure—it’s your business’s most powerful sales tool. Yet, too many business owners settle for generic, do-it-yourself website builders that leave them frustrated and stuck with a site that looks nice but doesn’t actually bring in customers.",
+    "introParagraph2": "If your website isn’t attracting visitors, building trust, and converting sales, it’s not just a bad website—it’s costing you money every single day.",
+    "harshRealityTitle": "The Harsh Reality: A Bad Website is Worse Than No Website",
+    "harshRealityText": "Think about the last time you searched for a business online. Did you land on a website that looked outdated, took forever to load, or made it hard to find what you needed? You left. That’s exactly what happens when potential customers encounter a poorly designed website.",
+    "harshRealityListItem1": "❌ Makes you look unprofessional – First impressions matter.",
+    "harshRealityListItem2": "❌ Loses customers to competitors – A slow or confusing site drives customers away.",
+    "harshRealityListItem3": "❌ Wastes your time & money – DIY builders often leave you with a site that doesn’t work properly.",
+    "harshRealityListItem4": "❌ Doesn’t show up on Google – Poor SEO means potential customers can’t find you.",
+    "harshRealityListItem5": "❌ Fails to convert visitors into paying customers – Your site should generate leads and sales.",
+    "benefitsTitle": "What a High-Performing Website Can Do for Your Business",
+    "benefitsIntro": "A high-performing website should be your hardest-working employee, working 24/7 to attract, convert, and retain customers.",
+    "benefitListItem1": "✅ Build trust & credibility – A sleek, modern site boosts your professional image.",
+    "benefitListItem2": "✅ Attract more customers – Expert SEO drives consistent traffic.",
+    "benefitListItem3": "✅ Convert visitors into customers – Clear, persuasive design guides actions.",
+    "benefitListItem4": "✅ Work on all devices – A mobile-friendly site reaches a wider audience.",
+    "benefitListItem5": "✅ Scale with your business – Custom solutions grow with your needs.",
+    "packageTitle": "What’s Included in Your Custom Website Package?",
+    "packageListItem1": "🔹 Stunning, Mobile-Friendly Design",
+    "packageListItem2": "🔹 SEO Optimization",
+    "packageListItem3": "🔹 High-Converting Copywriting",
+    "packageListItem4": "🔹 Lightning-Fast Speed",
+    "packageListItem5": "🔹 Easy-to-Use Contact & Booking Forms",
+    "finalCallTitle": "Ready to Take Your Business to the Next Level?",
+    "finalCallText": "A bad website is costing you sales every single day. Don't let another customer slip away. Invest in a high-converting website today and watch your business soar.",
+    "bookNow": "Book Now"
+  },
+
+  
+  "Navbar": {
+    "blog": "Blog",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get Started",
+    "theme":"Apperance",
+    "light":"Light",
+    "dark":"Dark"
+  },
+  "Footer": {
+    "description": "Transforming ideas into exceptional digital experiences. We help businesses grow through innovative design and development solutions.",
+    "company": "Company",
+    "about": "About Us",
+    "careers": "Careers",
+    "blog": "Blog",
+    "resources": "Resources",
+    "pricing": "Pricing",
+    "company_portal": "Company Portal",
+    "support": "Support",
+    "contact": "Contact Us",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "Home": {
+    "hero": {
+      "title": "Crafting Digital Excellence",
+      "subtitle": "We build beautiful, high-performance websites and applications that drive results for your business.",
+      "ctaPrimary": "View Plans",
+      "ctaSecondary": "Contact Us"
+    },
+    "features": {
+      "title": "Why Choose Us",
+      "subtitle": "We combine cutting-edge technology with exceptional design to deliver outstanding results",
+      "1": {
+        "title": "Custom Solutions",
+        "description": "Tailored to your specific business needs for maximum impact and efficiency."
+      },
+      "2": {
+        "title": "Expert Team",
+        "description": "Professionals with years of experience in understanding consumer needs."
+      },
+      "3": {
+        "title": "Performance Focused",
+        "description": "Optimized solutions that load fast and work flawlessly across all devices."
+      },
+      "4": {
+        "title": "Ongoing Support",
+        "description": "We stand behind our work with reliable maintenance and support when you need."
+      }
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "subtitle": "Don't just take our word for it - hear from our satisfied clients",
+      "1": {
+        "content": "He communicated with everyone excellently and politely, on the other hand he was able to work very independently and had his own visions and ideas on how to do the work. He produced amazing outreach for our us.",
+        "rating": 5
+      },
+      "2": {
+        "content": "The impact on our branding and visual image has been very positive. I would highly recommend these services for any company or NGO that wants to have reliable, fast paced and good quality visual updates for their social media and/or advertisement.",
+        "rating": 5
+      },
+      "3": {
+        "content": "Working with EkoForge has been a game-changer for our business. Their solutions are both beautiful and functional.",
+        "rating": 4
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Business?",
+      "subtitle": "Let's build something amazing together",
+      "button": "Get in Touch"
+    },
+    "PerformanceBoost":"Performance Boost",
+    "Uptime":"Uptime",
+    "Responsiveness":"Responsiveness",
+    "SEO":"SEO"
+  },
+  "Blog": {
+    "title": "Blog",
+    "subtitle": "Latest news, stories and updates from EkoForge",
+    "latestPosts": "Latest Posts",
+    "olderPosts": "Older Posts",
+    "show": "Show",
+    "hide": "Hide",
+    "readMore": "Read More →",
+    "noPosts": "No blog posts yet",
+    "checkBackLater": "Check back later for updates",
+    "close" : "Close",
+    "published": "Published",
+    "create" : {
+      "title" : "Title",
+      "content" : "Content",
+      "ImgLink" : "Image Link"
+    }
+
+  },
+  "Pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the perfect plan for your business. Start small and upgrade when it's time.",
+    "mostPopular":"Most Popular",
+    "faqTitle": "Frequently Asked Questions",
+    "plans": {
+      "lite": {
+        "name": "Lite",
+        "description": "Perfect for just starting out and small personal websites.",
+        "Price": "€199",
+        "savings": "Save 10%",
+        "features": [
+          "Up to 3 pages",
+          "Basic website design",
+          "Mobile-friendly layout",
+          "Bi-Lingual support",
+          "Standard support"
+        ],
+        "cta": "Try It Now"
+      },
+      "core": {
+        "name": "Core",
+        "description": "Streamlined solution for small projects with essential features.",
+        "Price": "€749",
+        "savings": "Save 10%",
+        "features": [
+          "Everything in Lite plan",
+          "Up to 10 pages",
+          "Customized design",
+          "SEO optimization",
+          "Optional basic database intergration",
+          "Multi-Lingual support",
+          "Progressive-Web-App features",
+          "Basic analytics",
+          "Optional hosting and domain services"
+        ],
+        "cta": "Get Started"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Enterprise-level performance with advanced analytics and full API access.",
+        "Price": "Contact us",
+        "features": [
+          "Everything in Core plan",
+          "Fully custom design",
+          "Unlimited pages",
+          "Advanced SEO",
+          "Priority support",
+          "Full database integration",
+          "Comprehensive analytics",
+          "Internal dashboard and reporting",
+          "Custom hosting and domain services"
+        ],
+        "cta": "Contact Us"
+      }
+    },
+    "faq": [
+      {
+        "question": "Can I switch plans later?",
+        "answer": "Yes, you can request an upgrade any time."
+      },
+      {
+        "question": "Do you offer discounts?",
+        "answer": "We offer special pricing depending on your needs and project size. Feel free to contact us at ekoforge@gmail.com for more information."
+      },
+      {
+        "question": "What is I am not satisfied with the work?",
+        "answer": "If you arent happy, we wont be either. We will work with you to make sure you are satisfied with the work. If we cannot come to an agreement, we will refund your money. However, no refunds will be given after the project has been turned over to the client."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept bank transfer, mobile pay, and more."
+      }
+    ]
+  },
+  "About": {
+    "title": "About Us",
+    "subtitle": "Committed to excellence and innovation.",
+    "ourStory": {
+      "title": "Our Story",
+      "description": "Founded in 2024, our journey started with a vision to transform the industry. We are committed to delivering excellence in every project.",
+      "sinceYear": "Since 2024"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to empower small businesses through innovative solutions, integrity, and a passion for success."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": ["Excellence", "Integrity", "Innovation"]
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "description": "We believe in a personalized approach that combines cutting-edge technology with an unwavering commitment to quality. Every project is a testament to our passion and vision for a better future."
+    },
+    "approach": {
+      "title": "Our Approach",
+      "description": "We partner closely with our clients, taking the time to understand their unique needs. By crafting bespoke solutions, we ensure lasting impact and measurable success."
+    },
+    "team": {
+      "title": "Meet The Leadership",
+      "ceo": {
+        "name": "E. A. Benni",
+        "position": "CEO & Founder",
+        "phone": "+358442413840",
+        "email": "e.benni@company.com"
+      },
+      "deliveryLead": {
+        "name": "B. Alexander",
+        "position": "Business specialisr",
+        "phone": "+358503664323",
+        "email": "b.alexander@company.com"
+      }
+    },
+    "contact": {
+      "title": "Ready to Transform Your Business?",
+      "subtitle": "We'd love to hear from you! Reach out and let's start a conversation.",
+      "button": "Contact Us"
+    }
+  }, 
+  "Contact": {
+    "header": {
+      "tag": "Get in touch",
+      "title": "Let's Build Something Amazing",
+      "subtitle": "Have a project in mind or want to discuss potential collaboration? Reach out and let's start the conversation."
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message",
+      "submit": "Send Message",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for reaching out. We'll get back to you within 24 hours.",
+      "successDescription": "Your message has been successfully sent.",
+      "errorMessage": "Submission failed",
+      "errorDescription": "Please try again or contact us directly.",
+      "newMessage": "Send another message"
+    },
+    "contactMethods": {
+      "title": "Other ways to reach us",
+      "phone": {
+        "title": "Phone",
+        "action": "Call us",
+        "value": "+358 44 241 3840"
+      },
+      "email": {
+        "title": "Email",
+        "action": "Email us",
+        "value": "ekoforge@gmail.com"
+      },
+      "location": {
+        "title": "Location",
+        "action": "View on map",
+        "value": "Helsinki, Finland"
+      }
+    },
+    "social": {
+      "title": "Connect with us"
+    },
+    "location": {
+      "title": "Our location"
+    }
+  },
+  "Careers": {
+    "header": {
+      "title": "Build Your Career With Us",
+      "subtitle1": "Join a team that values innovation, creativity, and your professional growth.",
+      "subtitle2": "We're building the future - and we want you to help shape it.",
+      "CTA": "View Open Positions"
+    },
+    "Benefits": {
+      "title": "Out Benefits",
+      "subtitle": "We take care of our team with comprehensive benefits designed to support your whole life.",
+      "benefitListItem1Title": "Merit-Based Commissions",
+      "benefitListItem1Description": "Earn competitive commissions tied directly to your performance.",
+      "benefitListItem2Title": "Fully Remote",
+      "benefitListItem2Description": "Work from anywhere, embracing a truly digital-first approach.",
+      "benefitListItem3Title": "Efficient Operations",
+      "benefitListItem3Description": "Lean, agile processes designed for quick decision-making and results.",
+      "benefitListItem4Title": "Innovation Encouraged",
+      "benefitListItem4Description": "Freedom to innovate, experiment, and implement new ideas rapidly.",
+      "benefitListItem5Title": "Performance Support",
+      "benefitListItem5Description": "Direct support and resources focused on maximizing your effectiveness.",
+      "benefitListItem6Title": "Simple, Results-Driven",
+      "benefitListItem6Description": "No bureaucracy—just straightforward business focused on common sense and outcomes."
+    },
+    "Positions": {
+      "title": "Open Positions",
+      "subtitle": "We're always looking for talented individuals to join our growing team.",
+        "FullStackDeveloper": { 
+            "title": "Full Stack Developer", 
+            "type": "Commission", 
+            "location": "Remote", 
+            "department": "Consultant",
+            "salary": "24% - 43% per project",
+            "tags": ["React", "TypeScript", "Next.js"],
+            "description": "We're looking for a proactive Full Stack Developer to build and enhance high-quality web applications. This role is fully remote, offering a generous commission-based compensation structure where earnings directly reflect your performance. You’ll use modern tools like React, TypeScript, and Next.js to deliver efficient, scalable, and innovative solutions. Ideal candidates are self-driven, results-oriented, and thrive in environments with minimal bureaucracy and maximum creative freedom."
+        },
+        "SalesRepsentative": { 
+            "title": "Sales Repsentative",
+            "type": "Commission", 
+            "location": "remote", 
+            "department": "Sales and Marketing",
+            "salary": "28% - 43% per project",
+            "tags": ["Sales", "Client Relations", "Negotiation", "Lead Generation"],
+            "description": "We're seeking a dynamic and results-oriented Sales Representative to join our fully remote sales team. With a generous commission structure, your earnings directly reflect your sales performance. You'll focus on building client relationships, generating leads, and closing deals efficiently and effectively. Ideal candidates possess strong communication skills, negotiation capabilities, and a proven ability to deliver results in a streamlined, performance-driven environment."
+        },
+        "LeadGenerationSpecialist": { 
+            "title": "Lead Generation Specialist",
+            "type": "Commission",
+            "location": "Remote",
+            "department": "Sales and Marketing",
+            "salary": "5% - 10% per converted lead",
+            "tags": ["Lead Generation", "Prospecting", "Networking", "Outreach"],
+            "description": "We are seeking proactive Lead Generation Specialists to identify and cultivate potential client relationships. This fully remote role offers a commission-based structure, rewarding you directly for each successful lead conversion. Ideal candidates excel at prospecting, networking, and outreach, and are motivated by clear, merit-based incentives. Join us to leverage your networking skills in an environment focused on simplicity, efficiency, and impactful results."
+        },
+        "ApplyButton": "Apply Now"
+    },
+    "Culture": {
+      "title": "Our Culture",
+      "subtitle": "We're building more than products - we're building a workplace people love.",
+      "culture1": {
+        "title": "Continuous Learning",
+        "description": "We invest 10% of work time for skill development"
+      },
+      "culture2": {
+        "title": "Radical Transparency",
+        "description": "Open salaries, open roadmap, open discussions"
+      },
+      "culture3": {
+        "title": "Outcome Over Hours",
+        "description": "We measure impact, not time spent at your desk"
+      },
+      "culture4": {
+        "title": "Diverse Perspectives",
+        "description": "We actively seek and celebrate different viewpoints"
+      }
+    },
+    "CTA": {
+      "title": "Ready to Join Us?",
+      "subtitle": "We're excited to hear from you. Apply today and let's build something amazing together.",
+      "button": "View Open Positions"
+    }
+  },
+  "Support": {
+    "header": {
+      "title": "How can we help you today?",
+      "subtitle": "Find answers in our knowledge base (Only in English), connect with our community, or get personalized help from our support team.",
+      "search": "Search help articles..."
+    },
+    "ContactSmall": {
+      "title": "Need more help?",
+      "subtitle": "Our support team is available to assist you with any questions as soon as they can.",
+      "button": "Contact Support"
+    },
+    "Contact": {
+      "title": "Still need help?",
+      "subtitle": "Our dedicated support team is ready to assist you with any questions or issues you might have.",
+      "name": "Your name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for reaching out. We'll get back to you within 24 hours.",
+      "successDescription": "Your message has been successfully sent.",
+      "errorMessage": "Submission failed",
+      "errorDescription": "Please try again or contact us directly.",
+      "newMessage": "Send another message"
+    },
+    "System": {
+      "title": "All systems operational",
+      "Update":"Last updated"
+    }
+  },
+
+
+
+
+
+
+
+  
+  "Dashboard": {
+    "label" : "Dashboard",
+    "WelcomeBack" : "Welcome Back",
+    "Subtitle" : "Stay updated with the latest club news and manage your flights.",
+    "NewBooking" : "New Booking",
+    "WritePost" : "Write Post",
+    "LogFlight" : "Log Flight",
+    "LatestClubNews" : "Latest Club News",
+    "SeeMore" : "See More",
+    "YourFlightStatistics" : "Your Flight Statistics",
+    "MonthlyFlightHours" : "Monthly Flight Hours",
+    "FlightSummary" : "Flight Summary",
+    "TotalFlightHours" : "Total Flight Hours",
+    "FlightsThisYear" : "Flights This Year",
+    "UpcomingBookings" : "Upcoming Bookings",
+    "view" : "Veiw",
+    "YourUpcomingBookings" : "Your Upcoming Bookings",
+    "ViewAllBookings": "View All Bookings",
+    "NoUpcomingBookings" : "No Upcoming Bookings",
+    "BookFlight" : "Book A Flight",
+    "resource" : "Resource",
+    "datetime" : "Date & Time",
+    "type" : "Type",
+    "actions": "Actions"
+  },
+  "SafteyNotice": {
+    "label": "Safety Notice"
+  },
+  "FlightPlanning": {
+    "label":"Flight Planning"
+  },
+  "FlightPlanList": {
+    "label":"Dashboard",
+    "flightPlanning": "Flight Planning",
+    "aircraftReservation": {
+      "title": "Aircraft Reservation",
+      "description": "View and reserve your desired aircraft.",
+      "buttonText": "View Reservations"
+    },
+    "aviationWeather": {
+      "title": "Aviation Weather",
+      "description": "Check the latest aviation weather and route notices.",
+      "buttonText": "Ilmailusää"
+    },
+    "flightLogbook": {
+      "title": "Flight Logbook",
+      "description": "View and manage your flight logbook.",
+      "buttonText": "View Logbook"
+    },
+    "maintenance": {
+      "title": "Maintenance Schedule & Hours",
+      "description": "View maintenance schedules and aircraft hour details.",
+      "buttonText": "View Hours"
+    },
+    "flightPlan": {
+      "title": "Flight Plan",
+      "description": "The written Flight Plan (FPL) is submitted online via the ANS Finland website. Remember to confirm your plan by calling the Helsinki-Vantaa briefing. Click the link below to pre-fill the FPL form with the basic details of the club's aircraft.",
+      "buttonText": "File Flight Plan Here"
+    },
+    "flightPlans": "My Flight Plans",
+    "dataGrid": {
+      "route": "Route",
+      "notes": "Notes",
+      "actions": "Actions"
+    },
+    "error": {
+      "fetchFlightPlans": "An error occurred while fetching flight plans."
+    },
+    "GeneralResources": "General Resources",
+    "GeneralResourcesDescription": "Access general resources for flight planning and aviation weather.",
+    "ais": "AIS - Online AIP",
+    "ilmailusaa": "Ilmailusää - Weather Information",
+    "FLYK": "FLYK - Flight Maps",
+    "lentopaikat": "Lentopaikat - Charts, etc",
+    "GeneralResourcesDescriptionTwo": "Equipment instruction documents, etc.",
+    "GeneralResourcesDescriptionTwoText": "Here you will find equipment instruction documents, etc.",
+    "instructions": "Equipment Instructions/Documents",
+    "GeneralResourcesDescriptionThree": "Fleet-specific information lists",
+    "GeneralResourcesDescriptionThreeText": "Here you will find fleet-specific information lists.",
+    "ihqInfo": "OH-IHQ, DV20",
+    "stlInfo": "OH-STL, DA40",
+    "GeneralResourcesDescriptionFour":  "International flight planning resources",
+    "GeneralResourcesDescriptionFourText": "Here you will find international flight planning resources.",
+    "internationalFlightPlanning": "International Flight Planning"
+  },
+  "InternationalFlightPlanning":{
+    "label": "International",
+    "title": "International Flight Planning",
+    "section1": {
+      "title": "International Flight Planning Considerations",
+      "content": "When flying internationally, consider possible landing and navigation fees as the Finnish seasonal pass system does not cover expenses abroad. These costs are usually paid by credit card or cash at the destination briefing. Airport staff are friendly and can assist if needed. Fueling abroad is charged against the club's hourly rate – however, credit cards tucked away in aircraft manuals might not be ideal. It's advisable to carry cash as a precaution and retain the fuel receipt – you can get reimbursed for the fuel invoice upon returning home by submitting a free-form application in the flight preparation area with your bank account number attached with the fuel receipt."
+    },
+    "section2": {
+      "title": "Written Flight Plan",
+      "content": "Always remember to file a written flight plan for international flights. The plan must be submitted at least one hour before crossing the national border. Since the Schengen Agreement covers most neighboring countries, this is usually the only formality required for border crossing.",
+      "linkText": "Learn more about flight planning",
+      "linkUrl": "https://example.com/flight-plan"
+    },
+    "section3": {
+      "title": "Water Area Crossings",
+      "content": "Each seat in the club's aircraft is equipped with life vests containing CO2 cartridges (commonly known as 'pop vests') that must be used when crossing water areas. Regulations require them for crossings of water bodies longer than 50 nautical miles, but it is advisable to wear them whenever flying a considerable distance away from shore.",
+      "linkText": "More on safety equipment",
+      "linkUrl": "https://example.com/water-crossings"
+    },
+    "section4": {
+      "title": "Estonia",
+      "content": "Estonia is part of the EU and the Schengen Area, so customs and passport formalities are not a concern. You can begin your flight from any airport in Finland and land at any airport in Estonia. Estonia, especially from the perspective of Malmi, is an excellent travel destination – even a short flight offers plenty to see. Tallinn has higher landing fees compared to, for example, airports in Saaremaa.",
+      "linkText": "Explore Estonia",
+      "linkUrl": "https://example.com/estonia"
+    },
+    "section5": {
+      "title": "Sweden",
+      "content": "Sweden is also part of the EU and the Schengen Area, so the procedure is the same as for Estonia. If you plan to fly to several airports in Sweden, it might be worthwhile to purchase a local 'weekly pass' that covers landing fees at most airports at a reasonable bulk price for a week. The Swedish Transport Agency's flight planning website provides weather, Sweden's AIP, and NOTAMs for our western neighbor.",
+      "linkText": "Discover Sweden",
+      "linkUrl": "https://example.com/sweden"
+    },
+    "section6": {
+      "title": "Latvia",
+      "content": "Riga is a popular destination – a vibrant European city just a couple of hours away by flight, and a common stopover for many summer vacation flights. In addition to Riga International Airport, there is also the older Riga airport, Spilve, located closer to the city. Fuel was not available from Spilve during the summer of 2012, although landing fees were only around ten euros. The airfield is PPR! Unfortunately, Latvia poses challenges regarding 100LL fuel (practically only from Riga), but diesel-powered aircraft face no issues. As Latvia is part of Schengen, a written plan alone is sufficient.",
+      "linkText": "Learn about Latvia",
+      "linkUrl": "https://example.com/latvia"
+    },
+    "section7": {
+      "title": "Lithuania",
+      "content": "In Lithuania, air traffic control also provides information about other aircraft outside of controlled airspace. The fees are reasonable and generally lower than in Latvia. The availability of 100LL fuel is slightly better, but still requires planning. Popular destinations include Palanga, known for its sandy beaches, Klaipeda – from which a short flight takes you to Kuurinkynnes, and Kaunas, where there is fueling availability along with an AFIS-like service at the general aviation field S. Darius and S. Girėnas (Aleksotas).",
+      "linkText": "Visit Lithuania",
+      "linkUrl": "https://example.com/lithuania"
+    },
+    "section8": {
+      "title": "Eurocontrol AIP Service",
+      "content": "Eurocontrol, the cooperative organization responsible for European airspace, offers a service that provides the aviation manuals (AIP) of member states in PDF format. This service requires free registration. Additionally, Eurocontrol's website offers a list of direct links to the individual AIP services of the member states.",
+      "linkText": "Access Eurocontrol",
+      "linkUrl": "https://example.com/eurocontrol"
+    },
+    "internationalFlightPlans": "International Flight Plans",
+    "dataGrid": {
+      "id": "ID",
+      "route": "Route",
+      "notes": "Notes",
+      "actions": "Actions"
+    },
+    "error": {
+      "fetchInternationalFlightPlans": "An error occurred while fetching international flight plans."
+    }
+  },
+  "FleetInfo": {
+    "label": "Fleet Info"
+  },
+  "Profile": {
+    "label": "Profile",
+    "username": "Username",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "role": "Role",
+    "section": {
+      "title": "Announcements & Discussion"
+    },
+    "section1": {
+      "title": "WhatsApp Groups",
+      "linkInfo": "MIK info (Announcements, equipment info etc.)",
+      "linkInfoUrl": "https://chat.whatsapp.com/H7ORSRxQMQjInO4hwjN8ER",
+      "linkChat": "MIK pulinajakso (Members discussion)",
+      "linkChatUrl": "https://chat.whatsapp.com/ICDocWfKA6xCbDWwKOZAmU"
+    },
+    "section2": {
+      "title": "Email Announcements",
+      "ihq": "IHQ announcements",
+      "ihqUrl": "https://groups.google.com/a/mik.fi/forum/#!forum/ihq-info",
+      "stl": "STL announcements",
+      "stlUrl": "https://groups.google.com/a/mik.fi/forum/#!forum/stl-info"
+    },
+    "section3": {
+      "title": "Electronic flight log and billing",
+      "body1": "All flights must be recorded in the aircraft's travel logbook and electronic flight log at",
+      "logbook": "www.mik.fi/kirja",
+      "logbookUrl": "http://www.mik.fi/kirja",
+      "body2": "Enter information immediately after the flight and double-check the details. Billing is done monthly via email. Ensure your email address is up to date.",
+      "body3": "We reconcile the aircraft book with the electronic log at least monthly. Ensure correct calculation of flight and total times. Student and instructor must verify block times match with training records."
+    },
+    "section4": {
+      "title": "Personal accounts",
+      "body": "The club website now uses the same login credentials as the booking system. If using a shared computer, do not select 'stay logged in' when logging in."
+    },
+    "section5": {
+      "title": "Booking and Discussion Forum & Member News",
+      "body": "Booking and discussion forums are available in the Members menu on the left. Member news is visible on the Home / Current page after logging in."
+    }    
+  },
+  "Bookings": {
+    "label": "Bookings"
+  },
+  "Logbook": {
+    "label": "Logbook"
+  },
+  "FlightStats": {
+    "label": "Flight Statistics"
+  },
+  "Manuals": {
+    "label": "Manuals",
+    "title": "Aircraft Manuals and Documents",
+    "description1": "Here are the club aircraft documents to assist with flight planning. Naturally, the official copies are in the respective aircraft, and we strive to keep these up to date. However, the possibility of human error always exists, so please verify the currency of documents before flight!",
+    "description2": "Please report any errors or deficiencies you notice to kalusto@mik.fi. Aircraft profiles are also available on the club's GitHub, so you can suggest changes if you wish.",
+    "reportErrors": "Report Errors",
+    "githubProfiles": "Aircraft Profiles on GitHub",
+    "notice": "Important Notice",
+    "noticeText": "Use of the aircraft requires understanding and compliance with the club's equipment instructions.",
+    "aircraftCommunication": "Aircraft-specific Communication",
+    "mailingList": "Mailing List",
+    "flightPlanEquipment": "Flight Plan Item 10 (EQUIPMENT)",
+    "download": "Download",
+    "otherResources": "Other Resources",
+    "view": "View"
+  },
+  "Instructions": {
+    "label": "Instructions",
+    "title": "Operational Instructions",
+    "description": "Flight operation guidelines and important documents for Malmi Aviation Club members.",
+    "operationalGuides": "Operational Guides",
+    "efprCharts": "EFPR Approach Charts",
+    "expenseReimbursement": "Expense Reimbursement",
+    "expenseInstructions": "Submit completed expense reimbursement form by email to laskutus@mik.fi",
+    "malmiGuide": "Malmi Airport Guidelines",
+    "download": "Download",
+    "downloadGuide": "Download Guide",
+    "submissionInfo": "Submit completed expense forms to the club treasurer.",
+    "submitExpenses": "Submit Expenses to laskutus@mik.fi"
+  },
+  "Members": {
+    "label": "Members"
+  },
+  "instructors": {
+    "title": "Flight Instructors",
+    "columns": {
+        "name": "Instructor",
+        "phone": "Phone",
+        "rating": "Rating Level",
+        "pplLapl": "PPL/LAPL",
+        "nightFlight": "NF",
+        "instrumentRating": "IR",
+        "recurrentTraining": "Recurrent",
+        "pricing": "Pricing",
+        "maxPricing": "Max Pricing"
+    },
+    "pricingInfo": {
+        "flightInstruction": "Flight instruction (per block)",
+        "licensedStudent": "Licensed student",
+        "unlicensedStudent": "Unlicensed student",
+        "theoryInstruction": "Theory instruction (per hour, divided among participants)"
+    }
+  },
+  "Instructors": {
+    "label": "Instructors"
+  },
+  "StudentChecklist": {
+    "label": "Student Checklist",
+    "welcome": {
+      "title": "Welcome to Malmi Flying Club",
+      "subtitle": "PPL Student Checklist"
+    },
+    "introduction": {
+      "paragraph1": "This checklist is primarily aimed at PPL students but applies to other training under our license. You'll have the same flight instructor until solo phase unless exceptional circumstances require a change.",
+      "paragraph2": "If you feel you cannot continue with your current instructor, contact the chief flight instructor. You can submit feedback or reports anonymously via the club's mailbox (marked \"TRAINING FEEDBACK/REPORT\") or through the website form (currently unavailable).",
+      "importantNote": "Please contact the chief flight instructor immediately if you believe safety was or could have been compromised, or if you have any observations about training or equipment."
+    },
+    "checklistTitle": "Training Checklist",
+    "sections": {
+      "beforeTraining": {
+        "title": "Before Training Begins",
+        "item1": "Aviation medical certificate (valid)",
+        "item2": "Training contract with Malmi Flying Club",
+        "item3": "Student license application (signed by chief flight instructor)",
+        "item4": "Ground school can be studied alongside flight training",
+        "note": "Note: Theory can be studied alongside flight training, but certain exams must be passed before first solo. Starting flight training late in autumn may not be advisable due to weather conditions."
+      },
+      "beforeFirstFlight": {
+        "title": "Before First Flight Lesson",
+        "item1": "Medical certificate copy in training folder",
+        "item2": "Student license copy in training folder",
+        "item3": "Training syllabus in folder",
+        "item4": "Ensure logbook and aircraft journey log are onboard for every flight"
+      },
+      "beforeSoloFlight": {
+        "title": "Requirements Before First Solo",
+        "item1": "Passed exams: Aviation Regulations, Flight Theory, Radiotelephony",
+        "item2": "Proficient in radiotelephony with ATC",
+        "item3": "Completed aircraft systems oral exam",
+        "item4": "Progress check flight with another instructor",
+        "item5": "Approved by chief flight instructor"
+      },
+      "beforeFlightTest": {
+        "title": "Before Flight Test",
+        "item1": "Valid student license and medical",
+        "item2": "Completed ground and flight training certificates",
+        "item3": "Club recommendation for flight test",
+        "item4": "Passed official theoretical exam",
+        "item5": "If applicable: Failed flight test report"
+      }
+    },
+    "licenseApplication": {
+      "title": "License Application Documents",
+      "description": "The following documents must be included with your license application:",
+      "item1": "Ground school certificate",
+      "item2": "Flight training certificate",
+      "item3": "Check pilot statement",
+      "item4": "Copy from logbook",
+      "item5": "Official theory exam results (copy)",
+      "item6": "Language proficiency certificate",
+      "item7": "Passport copy (non-Finnish citizens)",
+      "note": "Note: The official theory exam results should already be available to the authority, but include a copy for reference. Night rating cannot be included as part of LAPL(A)/PPL(A) training."
+    },
+    "instructors": {
+      "title": "Training Contacts",
+      "columns": {
+        "name": "Instructor",
+        "phone": "Phone",
+        "rating": "Rating Level",
+        "pplLapl": "PPL/LAPL",
+        "nightFlight": "NF",
+        "instrumentRating": "IR",
+        "recurrentTraining": "Recurrent",
+        "pricing": "Pricing",
+        "maxPricing": "Max Pricing"
+      },
+      "pricingInfo": {
+        "flightInstruction": "Flight instruction (per block)",
+        "licensedStudent": "Licensed student",
+        "unlicensedStudent": "Unlicensed student",
+        "theoryInstruction": "Theory instruction (per hour, divided among participants)"
+      },
+      "chiefInstructor": "Chief Flight Instructor: Rami Sadik",
+      "aircraftEquipment": {
+        "title": "Aircraft Equipment",
+        "list": "Training aircraft: OH-IHQ (no NF), OH-STL"
+      },
+      "lastUpdated": "Last updated: 28.10.2020 | Training license valid indefinitely"
+    }
+  }
+}

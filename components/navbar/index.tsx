@@ -39,7 +39,7 @@ import {
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import resources from '@/resources';
-import { CanAccess } from "@refinedev/core";
+import { CanAccess, useCan } from "@refinedev/core";
 import { useLogout } from '@refinedev/core';
 import { useTheme } from '@hooks/useTheme';
 import { useTranslations } from 'use-intl';
@@ -66,7 +66,9 @@ export default function MobileNav() {
   const { mutate: logout } = useLogout();
 
   // Define main navigation items
-  const mainNavItems = ['home', 'atis', 'fuel', 'profile'];
+
+
+  const mainNavItems = ['home', 'todolist', 'projects', 'admin', 'profile'];
   const mainNavResources = resources.filter(resource => mainNavItems.includes(resource.name));
   const menuResources = resources.filter(resource => !mainNavItems.includes(resource.name));
 
@@ -265,7 +267,7 @@ export default function MobileNav() {
           </Box>
 
           {/* Right Group */}
-          {mainNavResources.slice(2).map((resource) => (
+          {mainNavResources.slice(2,3).map((resource) => (
             <BottomNavigationAction
               key={resource.name}
               label={t(`${resource.meta.label}`)}
@@ -293,6 +295,72 @@ export default function MobileNav() {
               }}
             />
           ))}
+
+
+          <CanAccess
+            resource="admin"
+            action="list"
+          >
+            {mainNavResources.slice(3,4).map((resource) => (
+              <BottomNavigationAction
+                key={resource.name}
+                label={t(`${resource.meta.label}`)}
+                icon={resource.meta.icon}
+                component={Link}
+                href={resource.list}
+                sx={{
+                  minWidth: '72px',
+                  color: pathname.startsWith(resource.list) 
+                    ? theme.palette.primary.main 
+                    : theme.palette.text.secondary,
+                  transition: 'color 0.2s, transform 0.2s',
+                  '&:hover': {
+                    color: theme.palette.primary.dark,
+                  },
+                  '& .MuiBottomNavigationAction-label': {
+                    fontSize: '0.7rem',
+                    mt: 0.5,
+                    fontWeight: pathname.startsWith(resource.list) ? 600 : 500,
+                  },
+                  '& .MuiSvgIcon-root': {
+                    fontSize: '1.8rem',
+                    mb: 0.5,
+                  }
+                }}
+              />
+            ))}
+          </CanAccess>
+          {/* Render profile tab only if user cannot access admin */}
+          {!useCan({ resource: "admin", action: "list" }).data &&
+            mainNavResources.slice(4,5).map((resource) => (
+              <BottomNavigationAction
+                key={resource.name}
+                label={t(`${resource.meta.label}`)}
+                icon={resource.meta.icon}
+                component={Link}
+                href={resource.list}
+                sx={{
+                  minWidth: '72px',
+                  color: pathname.startsWith(resource.list) 
+                    ? theme.palette.primary.main 
+                    : theme.palette.text.secondary,
+                  transition: 'color 0.2s, transform 0.2s',
+                  '&:hover': {
+                    color: theme.palette.primary.dark,
+                  },
+                  '& .MuiBottomNavigationAction-label': {
+                    fontSize: '0.7rem',
+                    mt: 0.5,
+                    fontWeight: pathname.startsWith(resource.list) ? 600 : 500,
+                  },
+                  '& .MuiSvgIcon-root': {
+                    fontSize: '1.8rem',
+                    mb: 0.5,
+                  }
+                }}
+              />
+            ))
+          }
         </BottomNavigation>
       </Paper>
     </>
