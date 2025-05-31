@@ -45,7 +45,6 @@ export default function CreateUserModalWithButton() {
           password: data.password,
           user_metadata: {
             fullname: data.fullname,
-            licence: data.licence,
             status: data.status,
             role: data.role
           }
@@ -121,14 +120,7 @@ export default function CreateUserModalWithButton() {
                   variant="outlined"
                 />
               </Grid>
-              <Grid item xs={12}>
-                <TextField
-                  fullWidth
-                  label="License Number"
-                  {...register('licence')}
-                  variant="outlined"
-                />
-              </Grid>
+
               <Grid item xs={12} md={6}>
                 <FormControl fullWidth>
                   <InputLabel>Status</InputLabel>
@@ -161,9 +153,10 @@ export default function CreateUserModalWithButton() {
                         {...field}
                         label="Role"
                       >
+                        <MenuItem value="CEO">CEO</MenuItem>
                         <MenuItem value="admin">Admin</MenuItem>
-                        <MenuItem value="pilot">Pilot</MenuItem>
                         <MenuItem value="staff">Staff</MenuItem>
+                        <MenuItem value="new">New</MenuItem>
                       </Select>
                     )}
                   />

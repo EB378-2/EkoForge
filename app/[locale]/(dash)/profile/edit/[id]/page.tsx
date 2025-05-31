@@ -49,9 +49,7 @@ export default function ProfileEditPage() {
   });
 
   const profile = queryResult?.data?.data;
-
-  const ratingOptions = ["Student", "LAPL", "PPL", "CPL", "ATPL", "Kvetch"];
-
+  
   useEffect(() => {
     if (profile) {
       reset(profile);
@@ -161,50 +159,6 @@ export default function ProfileEditPage() {
                   helperText={errors.phone?.message?.toString()}
                 />
               </Grid>
-              <Grid item xs={12}>
-                <TextField
-                  fullWidth
-                  label="Licence"
-                  defaultValue={profile.licence}
-                  {...register("licence")}
-                  error={!!errors.licence}
-                  helperText={errors.licence?.message?.toString()}
-                />
-              </Grid>
-              <Controller
-                name="ratings"
-                control={control}
-                render={({ field }) => {
-                  const currentRatings: string[] = field.value || [];
-                  const handleCheckboxChange = (option: string, checked: boolean) => {
-                    let newRatings = checked
-                      ? [...currentRatings, option]
-                      : currentRatings.filter((rating) => rating !== option);
-                    field.onChange(newRatings);
-                  };
-                  return (
-                    <FormControl component="fieldset" sx={{ mt: 2 }}>
-                      <Typography variant="h6">Aviation Ratings</Typography>
-                      <FormGroup row>
-                        {ratingOptions.map((option) => (
-                          <FormControlLabel
-                            key={option}
-                            control={
-                              <Checkbox
-                                checked={currentRatings.includes(option)}
-                                onChange={(e) =>
-                                  handleCheckboxChange(option, e.target.checked)
-                                }
-                              />
-                            }
-                            label={option}
-                          />
-                        ))}
-                      </FormGroup>
-                    </FormControl>
-                  );
-                }}
-              />
             </Grid>
           </Grid>
         </Grid>

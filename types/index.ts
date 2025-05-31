@@ -6,9 +6,7 @@ export interface ProfileData {
   email: string;
   phone: string;
   avatar_url?: string;
-  ratings: string[];
-  licence?: string;
-  role: "CEO" | "Admin" | "New" | "Developer" | "Marketing";
+  role: "CEO" | "admin" | "new" | "developer" | "marketing";
   status: "active" | "pending" | "suspended";
   updated_at: string;
   created_at: string;

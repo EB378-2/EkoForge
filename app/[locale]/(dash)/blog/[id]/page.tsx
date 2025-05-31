@@ -26,7 +26,7 @@ import CalendarToday from "@mui/icons-material/CalendarToday";
 import Person from "@mui/icons-material/Person";
 import Share from "@mui/icons-material/Share";
 import { useTranslations } from "next-intl";
-import { ProfileAvatar, ProfileEmail, ProfileLicence, ProfileName, ProfilePhone, ProfileRole } from "@components/functions/FetchFunctions";
+import { ProfileAvatar, ProfileEmail, ProfileName, ProfilePhone, ProfileRole } from "@components/functions/FetchFunctions";
 
 type Blog = {
   id: string;

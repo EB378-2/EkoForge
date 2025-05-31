@@ -34,10 +34,9 @@ import DarkModeOutlined from "@mui/icons-material/DarkModeOutlined";
 import LightModeOutlined from "@mui/icons-material/LightModeOutlined";
 import { BarChart } from "recharts";
 import { Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
-import { ProfileAvatar, ProfileLicence, ProfileName, ProfileEmail, ProfilePhone, ProfileRatings} from "@components/functions/FetchFunctions"
+import { ProfileAvatar, ProfileName, ProfileEmail, ProfilePhone} from "@components/functions/FetchFunctions"
 import { EditButton } from "@refinedev/mui";
 import { ColorModeContext } from "@contexts/color-mode";
-import { FuelData } from "@components/FuelData";
 import { PasswordChangeBlock } from "@components/PasswordChange";
 import LanguageSwitcher from "@components/ui/LanguageSwitcher";
 import { useTranslations } from "next-intl";
@@ -117,14 +116,12 @@ const Profile = () => {
                   <ProfileAvatar profileId={uid}/>
                   <Box>
                     <Typography variant="h6"><ProfileName profileId={uid} /></Typography>
-                    <Typography variant="body2" color="text.secondary">{t("License")} #: <ProfileLicence profileId={uid} /></Typography>
                   </Box>
                 </Box>
                 <Box>
                   {[
                     { label: t("Email"), value: <ProfileEmail profileId={uid} /> },
                     { label: t("Phone"), value: <ProfilePhone profileId={uid} /> },
-                    { label: t("Certification"), value: <ProfileRatings profileId={uid} /> }
                   ].map((item, index) => (
                     <Box 
                       key={index} 
@@ -246,7 +243,7 @@ const Profile = () => {
           </Grid>
         </Grid>
         {/* Fuel Totals Card */}
-        <FuelData profileId={uid} />
+        
       </Container>
     </Box>
   );

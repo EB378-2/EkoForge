@@ -56,8 +56,7 @@ export default function ProfileEditPage() {
   });
 
   const profile = queryResult?.data?.data;
-  const ratingOptions = ["Student", "LAPL", "PPL", "CPL", "ATPL", "Kvetch"];
-  const roleOptions = ["admin", "pilot", "staff"];
+  const roleOptions = ["CEO", "admin", "new", "developer", "marketing"];
   const statusOptions = ["active", "pending", "suspended"];
 
   const handleSubmit = async (e: React.BaseSyntheticEvent) => {
@@ -276,47 +275,6 @@ export default function ProfileEditPage() {
                   {...register("phone")}
                   error={!!errors.phone}
                   helperText={errors.phone?.message?.toString()}
-                />
-              </Grid>
-
-              <Grid item xs={12}>
-                <TextField
-                  fullWidth
-                  label="Licence"
-                  {...register("licence")}
-                  error={!!errors.licence}
-                  helperText={errors.licence?.message?.toString()}
-                />
-              </Grid>
-
-              <Grid item xs={12}>
-                <Controller
-                  name="ratings"
-                  control={control}
-                  render={({ field }) => (
-                    <FormControl component="fieldset" fullWidth>
-                      <Typography variant="h6">Aviation Ratings</Typography>
-                      <FormGroup row>
-                        {ratingOptions.map(option => (
-                          <FormControlLabel
-                            key={option}
-                            control={
-                              <Checkbox
-                                checked={field.value?.includes(option)}
-                                onChange={(e) => {
-                                    const newRatings: string[] = e.target.checked
-                                    ? [...(field.value || []), option]
-                                    : (field.value || []).filter((r: string) => r !== option);
-                                  field.onChange(newRatings);
-                                }}
-                              />
-                            }
-                            label={option}
-                          />
-                        ))}
-                      </FormGroup>
-                    </FormControl>
-                  )}
                 />
               </Grid>
             </Grid>

@@ -33,9 +33,9 @@ export async function POST(request: Request) {
         id: authUser.user.id,
         email,
         fullname: user_metadata?.fullname,
-        licence: user_metadata?.licence,
+        
         status: user_metadata?.status || 'active',
-        role: user_metadata?.role || 'pilot'
+        role: user_metadata?.role || 'New'
       })
 
     if (profileError) {

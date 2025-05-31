@@ -29,18 +29,6 @@ export function ProfileAvatar({ profileId }: { profileId: string }) {
   return <Avatar src={profileData.avatar_url} alt={"pfp"} />;
 }
 
-export function ProfileLicence({ profileId }: { profileId: string }) {
-  const { queryResult } = useShow({
-      resource: "profiles",
-      id: profileId,
-      meta: { select: "licence" },
-      queryOptions: { enabled: !!profileId },
-  });
-  const profileData = queryResult?.data?.data as { licence: string;} | undefined;
-  if (!profileData) return <span>Loading...</span>;
-  return <span>{profileData.licence}</span>;
-}
-
 export function ProfilePhone({ profileId }: { profileId: string }) {
   const { queryResult } = useShow({
     resource: "profiles",
@@ -65,17 +53,6 @@ export function ProfileEmail({ profileId }: { profileId: string }) {
   return <span>{profileData.email}</span>;
 }
 
-export function ProfileRatings({ profileId }: { profileId: string }) {
-  const { queryResult } = useShow({
-    resource: "profiles",
-    id: profileId,
-    meta: { select: "ratings" },
-    queryOptions: { enabled: !!profileId },
-  });
-  const profileData = queryResult?.data?.data as { ratings: string[]; } | undefined;
-  if (!profileData) return <span>Loading...</span>;
-  return <span>{profileData.ratings}</span>;
-}
 export function ProfileRole({ profileId }: { profileId: string }) {
   const { queryResult } = useShow({
     resource: "profiles",
