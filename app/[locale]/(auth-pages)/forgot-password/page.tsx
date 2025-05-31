@@ -1,5 +1,5 @@
 import { AuthPage } from "@/components/auth-page";
-import { authProviderServer } from "@/providers/auth-provider/auth-provider.server";
+import { getData } from "@hooks/getData";
 import { redirect } from "next/navigation";
 
 export default async function ForgotPassword() {
@@ -10,14 +10,4 @@ export default async function ForgotPassword() {
   }
 
   return <AuthPage type="forgotPassword" />;
-}
-
-async function getData() {
-  const { authenticated, redirectTo, error } = await authProviderServer.check();
-
-  return {
-    authenticated,
-    redirectTo,
-    error,
-  };
 }

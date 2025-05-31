@@ -28,7 +28,7 @@ export const authProviderClient: AuthProvider = {
 
       return {
         success: true,
-        redirectTo: "/forge",
+        redirectTo: "/home",
       };
     }
 
@@ -121,14 +121,24 @@ export const authProviderClient: AuthProvider = {
   },
   getPermissions: async () => {
     const supabase = await supabaseBrowserClient();
-    const user = await supabase.auth.getUser();
-
-    if (user) {
-      return user.data.user?.role;
-    }
-
-    return null;
-  },
+      try {
+          const { error } = await supabase.auth.getUser();
+  
+          if (error) {
+              console.error(error);
+              return;
+          }
+  
+          const { data } = await supabase.rpc("get_my_claim", {
+              claim: "role",
+          });
+  
+          return data;
+      } catch (error: any) {
+          console.error(error);
+          return;
+      }
+    },
   getIdentity: async () => {
     const supabase = await supabaseBrowserClient();
     const { data } = await supabase.auth.getUser();
