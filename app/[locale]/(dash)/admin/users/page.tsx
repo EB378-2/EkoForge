@@ -23,9 +23,11 @@ const statusColors: Record<ProfileData['status'], 'success' | 'warning' | 'error
 };
 
 const roleColors: Record<ProfileData['role'], 'primary' | 'info' | 'secondary'> = {
-  admin: 'primary',
-  pilot: 'info',
-  staff: 'secondary'
+  CEO: 'primary',
+  Admin: 'primary',
+  New: 'info',
+  Developer: 'secondary',
+  Marketing: 'info'
 };
 
 export default function MembersList() {
@@ -183,7 +185,6 @@ export default function MembersList() {
           <TableHead sx={{ bgcolor: 'action.hover' }}>
             <TableRow>
               <TableCell>Member</TableCell>
-              <TableCell>License</TableCell>
               <TableCell>Status</TableCell>
               <TableCell>Role</TableCell>
               <TableCell>Joined at</TableCell>
@@ -203,9 +204,6 @@ export default function MembersList() {
                       </Typography>
                     </Box>
                   </Box>
-                </TableCell>
-                <TableCell>
-                  <Typography variant="body2">{member.licence || 'N/A'}</Typography>
                 </TableCell>
                 <TableCell>
                   <Chip 

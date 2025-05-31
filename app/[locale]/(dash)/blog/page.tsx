@@ -243,10 +243,10 @@ const BlogPage = () => {
               </Typography>
               
               <Box sx={{ display: 'flex', alignItems: 'center', mt: 'auto' }}>
-                <ProfileAvatar profileId={featuredBlog.uid} />
+                <ProfileAvatar profileId={featuredBlog.profile_id} />
                 <Box sx={{ ml: 2 }}>
                   <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
-                    <ProfileName profileId={featuredBlog.uid} />
+                    <ProfileName profileId={featuredBlog.profile_id} />
                   </Typography>
                   <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     <CalendarToday sx={{ 
@@ -388,10 +388,10 @@ const BlogPage = () => {
                       </Typography>
                       
                       <Box sx={{ display: 'flex', alignItems: 'center', mt: 'auto' }}>
-                        <ProfileAvatar profileId={blog.uid} />
+                        <ProfileAvatar profileId={blog.profile_id} />
                         <Box sx={{ ml: 2 }}>
                           <Typography variant="caption" sx={{ fontWeight: 600 }}>
-                            <ProfileName profileId={blog.uid} />
+                            <ProfileName profileId={blog.profile_id} />
                           </Typography>
                           <Box sx={{ display: 'flex', alignItems: 'center' }}>
                             <CalendarToday sx={{ 

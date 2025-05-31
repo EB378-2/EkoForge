@@ -7,7 +7,6 @@ import { CanAccess } from "@refinedev/core";
 import { SessionSync } from "@components/SessionSync";
 import MobileNav from "@components/navbar";
 import { Box } from "@mui/material";
-import RightTabModal from "@components/AlertTabComponent";
 
 export default async function Layout({ children }: React.PropsWithChildren) {
   const data = await getData();
@@ -22,7 +21,6 @@ export default async function Layout({ children }: React.PropsWithChildren) {
       <>
         <SessionSync />
         <Box sx={{ mb: 10 }}>
-          <RightTabModal />
           { children }
         </Box>
         <MobileNav></MobileNav>

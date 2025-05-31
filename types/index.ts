@@ -8,7 +8,7 @@ export interface ProfileData {
   avatar_url?: string;
   ratings: string[];
   licence?: string;
-  role: "admin" | "pilot" | "staff";
+  role: "CEO" | "Admin" | "New" | "Developer" | "Marketing";
   status: "active" | "pending" | "suspended";
   updated_at: string;
   created_at: string;
@@ -138,7 +138,7 @@ export type Blog = {
   image_link: string | null;
   published_at: string | null;
   created_at: string;
-  uid: string;
+  profile_id: string;
   updated_at: string;
   published: boolean;
 };

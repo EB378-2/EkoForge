@@ -35,7 +35,7 @@ type Blog = {
   image_link: string | null;
   published_at: string | null;
   created_at: string;
-  uid: string;
+  profile_id: string;
 };
 
 const BlogShowPage = () => {
@@ -269,10 +269,10 @@ const BlogShowPage = () => {
                       gap: 2
                     }}>
                       <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                        <ProfileAvatar profileId={blog?.uid || ""} />
+                        <ProfileAvatar profileId={blog?.profile_id || ""} />
                         <Box sx={{ ml: 2 }}>
                           <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
-                            <ProfileName profileId={blog?.uid || ""} />
+                            <ProfileName profileId={blog?.profile_id || ""} />
                           </Typography>
                           <Box sx={{ display: 'flex', alignItems: 'center', mt: 0.5 }}>
                             <CalendarToday sx={{ 
@@ -378,13 +378,13 @@ const BlogShowPage = () => {
               </Typography>
               
               <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
-                <ProfileAvatar profileId={blog?.uid || ""} />
+                <ProfileAvatar profileId={blog?.profile_id || ""} />
                 <Box sx={{ ml: 2 }}>
                   <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
-                    <ProfileName profileId={blog?.uid || ""} />
+                    <ProfileName profileId={blog?.profile_id || ""} />
                   </Typography>
                   <Typography variant="body2" sx={{ mt: 0.5, opacity: 0.8 }}>
-                    <ProfileRole profileId={blog?.uid as string} />
+                    <ProfileRole profileId={blog?.profile_id as string} />
                   </Typography>
                 </Box>
               </Box>
@@ -394,9 +394,8 @@ const BlogShowPage = () => {
                   ? 'text.secondary' : 'text.primary',
                 lineHeight: 1.7
               }}>
-                <ProfileEmail profileId={blog?.uid || ""} /> <br />
-                <ProfilePhone profileId={blog?.uid || ""} /> <br />
-                <ProfileLicence profileId={blog?.uid || ""} />
+                <ProfileEmail profileId={blog?.profile_id || ""} /> <br />
+                <ProfilePhone profileId={blog?.profile_id || ""} /> <br />
               </Typography>
               
               <Button

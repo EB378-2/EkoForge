@@ -28,7 +28,6 @@ import { CanAccess, useGetIdentity, useList } from "@refinedev/core";
 import { ProfileName, ProfileAvatar } from "@components/functions/FetchFunctions";
 import { useRouter } from "next/navigation";
 import { format } from 'date-fns';
-import SunriseSunsetCard from "@components/SunriseSunsetCard";
 import { Blog } from "@types";
 import dayjs from "dayjs";
 
@@ -230,12 +229,6 @@ export default function HomePage() {
             <Typography variant="h4" sx={{ fontWeight: 600 }}>
               {t("title")}
             </Typography>
-            <Box sx={{ gap: 3, mt: { xs: 2, md: 0 } }}>
-              <SunriseSunsetCard />
-              <Typography variant="subtitle1" sx={{ fontWeight: 500 }}>
-                {t("hours")}: 04:00 - 19:00 UTC
-              </Typography>
-            </Box>
           </Box>
         </Grid>
 
@@ -433,16 +426,6 @@ export default function HomePage() {
                 <Typography variant="subtitle1" sx={{ mb: 3, opacity: 0.9, color: theme.palette.primary.contrastText }}>
                   {formattedDate}
                 </Typography>
-                <Stack spacing={1}>
-                  <Button variant="outlined" color="secondary" onClick={() => {router.push("/atis")}}>{t("ReportTroubleatEFNU")}</Button>
-                  <Button 
-                    variant="outlined"
-                    color="primary"
-                    onClick={() => {router.push("/priornotice/create")}}
-                  >
-                    <Add/> {t("CreatePriorNotice")}
-                  </Button>
-                </Stack>
               </CardContent>
             </Card>
           <CanAccess resource="blog" action="list">
