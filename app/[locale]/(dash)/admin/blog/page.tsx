@@ -81,7 +81,7 @@ const BlogAdminDashboard = () => {
     total: data?.total || 0,
     published: data?.data?.filter(blog => blog.published_at !== null).length || 0,
     drafts: data?.data?.filter(blog => blog.published_at === null).length || 0,
-    authors: Array.from(new Set(data?.data?.map(blog => blog.uid))).length || 0
+    authors: Array.from(new Set(data?.data?.map(blog => blog.profile_id))).length || 0
   };
 
   const handleEditClick = (blog: Blog) => {
@@ -241,9 +241,9 @@ const BlogAdminDashboard = () => {
                     </TableCell>
                     <TableCell>
                       <Box display="flex" alignItems="center" gap={1}>
-                        <ProfileAvatar profileId={blog.uid} />
+                        <ProfileAvatar profileId={blog.profile_id} />
                         <Typography>
-                          <ProfileName profileId={blog.uid} />
+                          <ProfileName profileId={blog.profile_id} />
                         </Typography>
                       </Box>
                     </TableCell>

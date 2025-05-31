@@ -24,10 +24,10 @@ const statusColors: Record<ProfileData['status'], 'success' | 'warning' | 'error
 
 const roleColors: Record<ProfileData['role'], 'primary' | 'info' | 'secondary'> = {
   CEO: 'primary',
-  Admin: 'primary',
-  New: 'info',
-  Developer: 'secondary',
-  Marketing: 'info'
+  admin: 'primary',
+  new: 'info',
+  developer: 'secondary',
+  marketing: 'info'
 };
 
 export default function MembersList() {

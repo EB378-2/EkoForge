@@ -35,7 +35,7 @@ const BlogCreateModal = ({
     image_link: null,
     published_at: null,
     created_at: new Date().toISOString(),
-    uid: identity?.id || '',
+    profile_id: identity?.id || '',
   });
   
   const [imagePreview, setImagePreview] = useState('');
@@ -128,7 +128,7 @@ const BlogCreateModal = ({
       image_link: null,
       published_at: null,
       created_at: new Date().toISOString(),
-      uid: identity?.id || '',
+      profile_id: identity?.id || '',
     });
     setImagePreview('');
     if (fileInputRef.current) {
